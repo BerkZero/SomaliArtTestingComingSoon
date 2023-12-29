@@ -1,0 +1,33 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#logo {
+  /* Add styles for the logo here */
+  margin-bottom: 20px;
+}
+
+#dynamic-text {
+  /* Add styles for the dynamic text here */
+  font-size: 24px;
+  color: #333;
+  opacity: 0; /* Initially hide text for fade effect */
+}
